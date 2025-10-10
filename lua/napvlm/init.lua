@@ -19,3 +19,7 @@ require("ibl").setup()
 vim.diagnostic.config({
 	update_in_insert = true,
 })
+vim.cmd("set cmdheight=0")
+vim.cmd("set noshowmode")
+vim.opt.signcolumn = "yes"
+
